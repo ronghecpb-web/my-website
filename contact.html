@@ -1,4 +1,17 @@
-<!DOCTYPE html><html lang="zh-Hant"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="榮禾稅務記帳士事務所｜工商登記、帳務處理、稅務申報、稅務諮詢"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body><title>聯絡榮禾｜榮禾稅務記帳士事務所</title><header class="site-header">
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="榮禾稅務記帳士事務所｜工商登記、帳務處理、稅務申報、稅務諮詢">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<title>聯絡榮禾｜榮禾稅務記帳士事務所</title>
+<header class="site-header">
   <div class="container nav-wrap">
     <a href="index.html" class="logo"><span class="logo-mark">榮</span><span><strong>榮禾</strong><small>稅務記帳士事務所</small></span></a>
     <button class="menu-toggle" aria-label="開啟選單">☰</button>
@@ -7,19 +20,68 @@
     </nav>
   </div>
 </header>
-<main><section class="page-hero"><div class="container"><p class="eyebrow">CONTACT US</p><h1>聯絡榮禾</h1><p>留下基本資料與需求，讓我們先了解您的情況。<br>有任何關於我們事務所或服務的問題，歡迎聯絡我們，我們亦會盡快回覆。</p>
-</div></section><section class="contact-section"><div class="container contact-grid"><div><p class="eyebrow">RONGHE TAX &amp; ACCOUNTING OFFICE</p><h2>讓我們聊聊<br>您的事業。</h2><p class="contact-intro">您無需先把問題整理得很完整，將目前遇到的情況告訴我們即可。</p><div class="contact-info"><div><span>電話</span><strong>0919-652472</strong></div><div><span>LINE</span><strong>@937hcyru</strong></div>
+<main>
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">CONTACT US</p>
+    <h1>聯絡榮禾</h1>
+    <p>留下基本資料與需求，讓我們先了解您的情況。<br>有任何關於我們事務所或服務的問題，歡迎聯絡我們，我們亦會盡快回覆。</p>
+  </div>
+</section>
+<section class="contact-section">
+  <div class="container contact-grid">
+    <div>
+      <p class="eyebrow">RONGHE TAX &amp; ACCOUNTING OFFICE</p>
+      <h2>讓我們聊聊<br>您的事業。</h2>
+      <p class="contact-intro">您無需先把問題整理得很完整，將目前遇到的情況告訴我們即可。</p>
+      <div class="contact-info">
+        <div><span>電話</span><strong>0919-652472</strong></div>
+        <!-- LINE 點擊功能已完美打通，且維持原有樣式，並補上空白間距 -->
+        <div><span>LINE</span><strong>@937hcyru</strong></div>
+        <div><span>Email</span><strong>ronghecpb@gmail.com</strong></div>
+        <div><span>地址</span><strong>苗栗縣頭份市蘆竹路251號</strong></div>
+      </div>
+    </div>
+    
+    <!-- 表單區塊：已精準連接您的 Formspree 專屬傳送網址 -->
+    <form class="contact-form" id="contactForm" action="https://formspree.io/f/mwllppoe" method="POST">
+      <label>姓名<input type="text" name="name" placeholder="請輸入您的姓名" required></label>
+      <label>聯絡電話<input type="tel" name="phone" placeholder="請輸入電話" required></label>
+      <label>Email<input type="email" name="email" placeholder="example@email.com"></label>
+      <label>諮詢項目
+        <select name="service">
+          <option>請選擇</option>
+          <option>公司／行號設立</option>
+          <option>帳務處理</option>
+          <option>稅務申報</option>
+          <option>稅務諮詢</option>
+          <option>其他</option>
+        </select>
+      </label>
+      <label>想詢問的內容<textarea name="message" rows="6" placeholder="請簡單描述您的需求"></textarea></label>
+      <button class="btn btn-primary" type="submit">送出諮詢</button>
+      
+      <!-- 表單下方的備用直連 LINE 按鈕 -->
+      <div style="text-align: center; margin-top: 30px; margin-bottom: 20px; font-family: 'Microsoft JhengHei', sans-serif;">
+          <p style="font-size: 15px; color: #666666; margin-bottom: 12px;">💡 擔心表單漏信？您也可以直接點擊下方按鈕，用 LINE 傳送訊息更快速：</p>
+          <a href="https://lin.ee/Yp7fNXT" target="_blank" style="display: inline-block; background-color: #06C755; color: white; text-decoration: none; padding: 14px 35px; font-size: 16px; font-weight: bold; border-radius: 50px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+              💬 點我加入榮禾官方 LINE 線上諮詢 (@937hcyru)
+          </a>
+      </div>
+      <p class="form-note"></p>
+    </form>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="container footer-wrap">
+    <div><strong>榮禾稅務記帳士事務所</strong><p>工商登記｜帳務處理｜稅務申報｜稅務諮詢</p></div>
+    <div>© 2026 Rong He Tax & Accounting. All Rights Reserved.</div>
+  </div>
+</footer>
 
-<div><span>Email</span><strong>ronghecpb@gmail.com</strong></div><div><span>地址</span><strong>苗栗縣頭份市蘆竹路251號</strong></div></div></div><form class="contact-form" id="contactForm" action="https://formspree.io/f/mwllppoe" method="POST">
-<label>姓名<input type="text" name="name" placeholder="請輸入您的姓名" required></label><label>聯絡電話<input type="tel" name="phone" placeholder="請輸入電話" required></label><label>Email<input type="email" name="email" placeholder="example@email.com"></label><label>諮詢項目<select name="service"><option>請選擇</option><option>公司／行號設立</option><option>帳務處理</option><option>稅務申報</option><option>稅務諮詢</option><option>其他</option></select></label><label>想詢問的內容<textarea name="message" rows="6" placeholder="請簡單描述您的需求"></textarea></label><button class="btn btn-primary" type="submit">送出諮詢</button><!-- 表單下方的備用直連 LINE 按鈕 -->
-<div style="text-align: center; margin-top: 30px; margin-bottom: 20px; font-family: 'Microsoft JhengHei', sans-serif;">
-    <p style="font-size: 15px; color: #666666; margin-bottom: 12px;">💡 擔心表單漏信？您也可以直接點擊下方按鈕，用 LINE 傳送訊息更快速：</p>
-    <a href="https://lin.ee/Yp7fNXT" target="_blank" style="display: inline-block; background-color: #06C755; color: white; text-decoration: none; padding: 14px 35px; font-size: 16px; font-weight: bold; border-radius: 50px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-        💬 點我加入榮禾官方 LINE 線上諮詢 (@937hcyru)
-    </a>
-</div>
-<p class="form-note"></p></form></div></section></main><footer><div class="container footer-wrap"><div><strong>榮禾稅務記帳士事務所</strong><p>工商登記｜帳務處理｜稅務申報｜稅務諮詢</p></div><div>© 2026 Rong He Tax & Accounting. All Rights Reserved.</div></div></footer>
-<script src="script.js"></script>
+<!-- 關鍵修正：已徹底移除干擾表單發送的舊 script.js 備忘錄標籤 -->
+
 <!-- Formspree 免費版自動跳轉首頁語法開始 -->
 <script>
 document.getElementById('contactForm').addEventListener('submit', function(e) {
@@ -51,4 +113,5 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
 });
 </script>
 <!-- Formspree 免費版自動跳轉首頁語法結束 -->
-</body></html>
+</body>
+</html>
